@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Drumkit</title>
+    <link rel="icon" type="image/x-icon" href="./style/images/favicon1.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
@@ -12,11 +15,11 @@
 
     <header>
         <div id="logo">
-            <a href=""><img src="./style/images/logoV.jpg" alt="Vinny's logo'"></a>
+            <a href=""><img src="./style/images/favic.png" alt="Vinny's logo'"></a>
         </div>
         <nav>
             <div class="title">
-                <h1>Drumkit Javascript</h1>
+                <h1>Drumkit <span>JS</span></h1>
             </div>
 
 
@@ -33,7 +36,7 @@
 
         <div class="drum">
             <div id="boom">
-                <button class="button">A</button>
+                <button class="button" onclick="clicked">A</button>
             </div>
             <div id="clap">
                 <button class="button">S</button>
@@ -63,7 +66,31 @@
         </div>
     </main>
 
+    <footer>
+        <div class="footer">
+            <div class="container_footer">
+                <div class="footer_logo">
+                    <img src="./style/images/logoV.jpg" alt="footer_logo">
+                </div>
+                <div class="footer_nav">
+                    <ul class="socials">
+                        <a id="linkedin" href="https://www.linkedin.com/in/vinicius-olivi/">
+                            <i class="fa-brands fa-linkedin fa-2xl" style="color: #0A66C2;"></i></a>
+
+                        <a id="instagram" href="https://www.instagram.com/vini.olivi/">
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: #7B34BE;"></i></a>
+
+                        <a id="github" href="https://github.com/Vinicius-Olivi">
+                            <i class="fa-brands fa-github fa-2xl" style="color: #000;"></i></a>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="./app.js"></script>
+
 </body>
 
 
