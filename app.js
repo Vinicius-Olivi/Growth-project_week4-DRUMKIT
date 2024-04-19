@@ -51,10 +51,9 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-/* boom.addEventListener("click", () => {
-  boom.style.transform = "rotate(90deg)";
+boom.addEventListener("click", () => {
   boomS.play();
-}); */
+});
 clap.addEventListener("click", () => {
   clapS.play();
 });
